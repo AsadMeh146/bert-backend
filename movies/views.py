@@ -27,6 +27,7 @@ class RetrieveUpdateDestroyMovieAPIView(RetrieveUpdateDestroyAPIView):
     permission_classes = [IsAuthenticated, IsOwnerOrReadOnly]
 
 
-
+def index():
+    return "<h1>Successfully deployed</h1>"
 
 
